@@ -1,0 +1,37 @@
+.main{
+  position: absolute;
+  text-align: center;
+  font-family: "Cambria Math";
+  top:120px;
+  left:700px;
+}
+.img{
+  width:500px;
+  height:200px;
+}
+.panels{
+  position: absolute;
+  left:120px;
+}
+
+.buttons{
+  position: absolute;
+  left:275px;
+
+}
+#submit{
+  width: 100px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  background-color: #ffcccc;
+}
+#registration{
+  width: 100px;
+  border-radius: 5px;
+  background-color: palegreen;
+}
+.forgotten{
+  position: relative;
+  top:50px;
+  right:38px;
+}
