@@ -1,5 +1,5 @@
   body {
-    background: url('https://images.duckduckgo.com/iu/?u=http%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0969%2F5876%2Fproducts%2FButt-on-Set_grande.jpg%3Fv%3D1442634482&f=1');
+    background: url('./assets/back.jpg');
     background-size: 700px 700px;
     background-repeat: repeat;
   }
