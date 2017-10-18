@@ -1,39 +1,63 @@
-.main{
-  position: absolute;
-  text-align: center;
-  font-family: "Cambria Math";
-  top:120px;
-  left:700px;
+.form-signin {
+  max-width: 330px;
+  max-height: 330px;
+  padding: 15px;
+  margin: 0 auto;
 }
-.img{
-  width:500px;
-  height:200px;
+.form-signin .form-signin-heading, .form-signin {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
-.panel{
-  display: inline-block;
+.form-signin .checkbox {
+  font-weight: normal;
+  margin-top: 20px;
+  margin-left: 20px;
 }
-.s1{
-  margin-left: 0;
-}
-
-.buttons{
-  position: absolute;
-  left:275px;
-
-}
-#submit{
-  width: 100px;
-  margin-bottom: 4px;
-  border-radius: 5px;
-  background-color: #ffcccc;
-}
-#registration{
-  width: 100px;
-  border-radius: 5px;
-  background-color: palegreen;
-}
-.forgotten{
+.form-signin .form-control {
   position: relative;
-  right:38px;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form-signin input[type="text"] {
+  margin-bottom: -1px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+.account-wall {
+  margin-top: 20px;
+  padding: 10px 0px 40px 0px;
+  background-color: floralwhite;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
+}
+.login-title {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+
+}
+.profile-img {
+  width: 50%;
+  height: 50%;
+  margin: 20px auto 10px;
+  display: block;
+  border-radius: 50%;
+  border: 1px solid darkgrey;
+  box-sizing: border-box;
+}
+.forgotten {
+  margin-top: 20px;
+}
+.new-account {
+  display: block;
+  margin-top: 40px;
+}
+.navbar {
+  height: 3em;
 }

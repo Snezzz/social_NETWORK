@@ -1,22 +1,26 @@
-<div class="main">
-  <h1>
-    Добро пожаловать!
-  </h1>
-  <img src="../src/main_image.jpg" alt="" class="img"><br>
-  <div class="panels">
-    <div class="panel s1">
-     <input type="text" id="login" style="margin-bottom: 4px" placeholder="Username"><br>
-     <input type="password" id="password" placeholder="Pasword"><br>
-    </div>
-  <div class="panel">
-    <form>
-      <input type="submit" value="Login" id="submit" onclick="take()"><br>
-      <input type="button" value="Registration" id="registration" onclick="regisr()">
-    </form>
-  </div>
-  <div class="forgotten">
-  <a href="" onclick=""><b>Забыли пароль?</b></a>
-</div>
+<div class="navbar navbar-default">
+  <div class="navbar-header">
+    <a href="#" class="navbar-brand">squirrel</a>
   </div>
 </div>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3 col-xs-8 col-xs-offset-2">
+      <div class="account-wall">
+        <h1 class="text-center login-title">Войдите, чтобы начать общение</h1>
+        <img class="profile-img" src="http://img4.wikia.nocookie.net/__cb20131118053338/powerlisting/images/3/39/Domics.png">
+        <form class="form-signin">
+          <input type="text" class="form-control" placeholder="Электронная почта" required autofocus>
+          <input type="password" class="form-control" placeholder="Пароль" required>
+          <button class="btn btn-lg btn-primary btn-block" type="submit">Войти</button>
+          <label class="checkbox pull-left">
+            <input type="checkbox" value="remember-me">Запомнить
+          </label>
+          <a href="#" class="pull-right forgotten">Забыли пароль? </a><span class="clearfix"></span>
+        </form>
+        <a href="#" class="text-center new-account">Зарегистрироваться</a>
+      </div>
 
+    </div>
+  </div>
+</div>
