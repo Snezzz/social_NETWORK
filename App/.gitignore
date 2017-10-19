@@ -5,9 +5,6 @@
 /tmp
 /out-tsc
 
-# dependencies
-/node_modules
-
 # IDEs and editors
 /.idea
 .project
@@ -34,8 +31,8 @@ testem.log
 /typings
 
 # e2e
-/e2e/*.js
-/e2e/*.map
+#/e2e/*.js
+#/e2e/*.map
 
 # System Files
 .DS_Store
