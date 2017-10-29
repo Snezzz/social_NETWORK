@@ -1,0 +1,15 @@
+<div class="navbar navbar-default">
+<div class="container">
+        <div class="navbar-header">
+          <a [routerLink]="['/']" class="navbar-brand navbar-right">squirrel</a>
+          <ul class="nav navbar-nav navbar-left">
+            <li>
+              <a [routerLink]="['/']"
+                 [ngClass]="{active: !isActiveTab()}" *ngIf="isActiveTab()">
+                <span class="glyphicon glyphicon-circle-arrow-left"></span>
+              </a>
+            </li>
+          </ul>
+        </div>
+    </div>
+</div>
