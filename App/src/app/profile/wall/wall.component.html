@@ -1,0 +1,18 @@
+<div  style="background-color: honeydew">
+  <form method="post" class="new-note">
+    <div class="note">
+      <p>Заголовок:<input type="text" id="head"></p>
+      <p>Запись:<input type="text" id="text"></p>
+      <input type="button" ng-click="Add(head,text)"id="add" value="New note">
+    </div>
+  </form>
+</div>
+<div *ngFor="let note of notes">
+  <div class="jumbotron">
+    <h2 class="display-3">{{note.Title}}</h2>
+    <p class="lead">{{note.Description}}</p>
+    <hr class="m-y-2">
+    <p>Likes:{{note.Likes}}</p>
+    <br>{{note.Date}}
+  </div>
+</div>

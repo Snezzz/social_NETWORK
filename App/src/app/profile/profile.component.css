@@ -1,0 +1,24 @@
+img{
+  height: 200px;
+  text-align: center;
+  margin-right: 2em;
+}
+p{
+  box-sizing: border-box;
+  width:80px;
+  text-align: center;
+  font-family: Century;
+  font-style:  normal;
+  font-size: 20px;
+}
+div{
+ width: 518px;
+}
+.position{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.profile-component{
+  margin-bottom: 2px;
+}

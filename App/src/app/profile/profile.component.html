@@ -1,5 +1,19 @@
-<div style="background-color: floralwhite">
-  <p>
-    Твой профиль будет здесь однажды
-  <p>
+<div style="background-color: floralwhite" class="profile-component">
+  <div>
+    <input type="button" value="Edit" ng-click="edit()">
+  </div>
+    <div *ngFor="let inform of information">
+      <div class="position">
+        <img src='./assets/logo.png' class="img-circle">
+        <p>{{inform.FirstName}}</p>
+        <p>{{inform.NickName}}</p>
+        <p>{{inform.LastName}}</p>
+      </div>
+        <div id="">
+          {{inform.Information}}
+        </div>
+      </div>
 </div>
+<app-wall></app-wall>
+
+
